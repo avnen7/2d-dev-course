@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://deqnob6u7rhnw"]
+
+[ext_resource type="Texture2D" uid="uid://cvn02ej5nkard" path="res://Assets/Plane.png" id="1_grk3k"]
+[ext_resource type="Texture2D" uid="uid://cnpsbaws0wdcf" path="res://Assets/Helicopter.png" id="2_o4g2x"]
+
+[node name="Ocean" type="Node"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_grk3k")
+
+[node name="Helicopter" type="Sprite2D" parent="."]
+position = Vector2(535, 323)
+texture = ExtResource("2_o4g2x")
