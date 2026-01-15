@@ -11,3 +11,5 @@ texture = ExtResource("1_grk3k")
 [node name="Helicopter" type="Sprite2D" parent="."]
 position = Vector2(535, 323)
 texture = ExtResource("2_o4g2x")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
