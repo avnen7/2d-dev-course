@@ -5,7 +5,8 @@
 [ext_resource type="Texture2D" uid="uid://bcak7ufhik0x3" path="res://Assets/Carrier.png" id="3_jxjap"]
 [ext_resource type="Texture2D" uid="uid://cykk2xpb4rx7g" path="res://Assets/Water.png" id="4_au52k"]
 
-[node name="Ocean" type="Node"]
+[node name="Ocean" type="Node2D"]
+y_sort_enabled = true
 
 [node name="Plane" type="Sprite2D" parent="."]
 position = Vector2(298.00003, 236)
