@@ -12,21 +12,19 @@ script = ExtResource("1_fyc3p")
 
 [node name="Plane" type="Sprite2D" parent="."]
 position = Vector2(298.00003, 236)
-rotation = 0.6247065
 scale = Vector2(0.8, 0.8)
 texture = ExtResource("2_t11xa")
-
-[node name="Helicopter" type="Sprite2D" parent="."]
-position = Vector2(644, 169)
-rotation = 1.199549
-scale = Vector2(0.9, 0.9)
-texture = ExtResource("3_4wd1y")
 
 [node name="Carrier" type="Sprite2D" parent="."]
 z_index = 2
 position = Vector2(662.00006, 457.00003)
-rotation = 0.7485939
+scale = Vector2(0.8, 0.8)
 texture = ExtResource("4_qeolc")
+
+[node name="Helicopter" type="Sprite2D" parent="Carrier"]
+position = Vector2(53.99994, -337)
+rotation = -3.1415925
+texture = ExtResource("3_4wd1y")
 
 [node name="Water" type="Sprite2D" parent="."]
 z_index = -1
