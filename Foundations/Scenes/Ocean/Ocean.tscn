@@ -18,12 +18,13 @@ texture = ExtResource("2_t11xa")
 [node name="Carrier" type="Sprite2D" parent="."]
 z_index = 2
 position = Vector2(662.00006, 457.00003)
+rotation = 0.5235988
 scale = Vector2(0.8, 0.8)
 texture = ExtResource("4_qeolc")
 
 [node name="Helicopter" type="Sprite2D" parent="Carrier"]
 position = Vector2(53.99994, -337)
-rotation = -3.1415925
+rotation = 1.2217305
 texture = ExtResource("3_4wd1y")
 
 [node name="Water" type="Sprite2D" parent="."]
