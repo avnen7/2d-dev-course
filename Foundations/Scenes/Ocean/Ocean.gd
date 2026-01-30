@@ -3,7 +3,7 @@ extends Node2D
 @onready var plane: Sprite2D = $Plane
 @onready var helicopter: Sprite2D = $Helicopter
 
-var _target: Vector2 = Vector2.ZERO
+#var _target: Vector2 = Vector2.ZERO
 const ROT_SPEED: float = PI / 2
 
 

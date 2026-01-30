@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://deqnob6u7rhnw"]
+[gd_scene format=3 uid="uid://deqnob6u7rhnw"]
 
 [ext_resource type="Script" uid="uid://d2i3toilwgioc" path="res://Scenes/Ocean/Ocean.gd" id="1_fyc3p"]
 [ext_resource type="Texture2D" uid="uid://cvn02ej5nkard" path="res://Assets/Plane.png" id="2_t11xa"]
@@ -6,28 +6,28 @@
 [ext_resource type="Texture2D" uid="uid://bcak7ufhik0x3" path="res://Assets/Carrier.png" id="4_qeolc"]
 [ext_resource type="Texture2D" uid="uid://cykk2xpb4rx7g" path="res://Assets/Water.png" id="5_1ygjh"]
 
-[node name="Ocean" type="Node2D"]
+[node name="Ocean" type="Node2D" unique_id=623104984]
 y_sort_enabled = true
 script = ExtResource("1_fyc3p")
 
-[node name="Plane" type="Sprite2D" parent="."]
+[node name="Plane" type="Sprite2D" parent="." unique_id=1716154770]
 position = Vector2(98, 99)
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("2_t11xa")
 
-[node name="Carrier" type="Sprite2D" parent="."]
+[node name="Carrier" type="Sprite2D" parent="." unique_id=1252854693]
 z_index = 2
 position = Vector2(838, 245.99997)
 rotation = 0.5235988
 scale = Vector2(0.8, 0.8)
 texture = ExtResource("4_qeolc")
 
-[node name="Water" type="Sprite2D" parent="."]
+[node name="Water" type="Sprite2D" parent="." unique_id=2110437875]
 z_index = -1
 position = Vector2(576, 324)
 texture = ExtResource("5_1ygjh")
 
-[node name="Helicopter" type="Sprite2D" parent="."]
+[node name="Helicopter" type="Sprite2D" parent="." unique_id=459382565]
 position = Vector2(114, 448)
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("3_4wd1y")
